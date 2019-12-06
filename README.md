@@ -2,7 +2,7 @@
 
 [image1]: ./images/sample_dog_output.png "Sample Output"
 
-# CNN Dog Breed Classifier
+# Dog Prediction App
 
 ### Project Motivation
 
