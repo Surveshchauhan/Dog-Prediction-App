@@ -46,77 +46,13 @@ cd dog-project
 
 - Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) and the [Resnet50 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) for the two respective pre-trained classifiers.  Place them in the repo, at location `path/to/dog-breed-classifier/bottleneck_features`.
 
-- Using a GPU to run this project is strongly recommended. If you plan to install TensorFlow with GPU support on your local machine, follow [this guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system.  If you are using an EC2 GPU instance, you can skip this step.
-
-- If you are running the project on your local machine (and not using AWS, Crestle or a similar GPU-enabling platform), create (and activate) a new environment.
-
-	- __Linux__ (to install with __GPU support__, change `requirements/dog-linux.yml` to `requirements/dog-linux-gpu.yml`): 
-	```
-	conda env create -f requirements/dog-linux.yml
-	source activate dog-project
-	```  
-	- __Mac__ (to install with __GPU support__, change `requirements/dog-mac.yml` to `requirements/dog-mac-gpu.yml`): 
-	```
-	conda env create -f requirements/dog-mac.yml
-	source activate dog-project
-	```  
-	**NOTE:** Some Mac users may need to install a different version of OpenCV
-	```
-	conda install --channel https://conda.anaconda.org/menpo opencv3
-	```
-	- __Windows__ (to install with __GPU support__, change `requirements/dog-windows.yml` to `requirements/dog-windows-gpu.yml`):  
-	```
-	conda env create -f requirements/dog-windows.yml
-	activate dog-project
-	```
-
-- If you are running the project on your local machine (and not using AWS, Crestle or a similar GPU-enabling platform) and Step 6 throws errors, try this __alternative__ step to create your environment.
-
-	- __Linux__ or __Mac__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`): 
-	```
-	conda create --name dog-project python=3.5
-	source activate dog-project
-	pip install -r requirements/requirements.txt
-	```
-	**NOTE:** Some Mac users may need to install a different version of OpenCV
-	```
-	conda install --channel https://conda.anaconda.org/menpo opencv3
-	```
-	- __Windows__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`):  
-	```
-	conda create --name dog-project python=3.5
-	activate dog-project
-	pip install -r requirements/requirements.txt
-	```
-	
-- (Optional) **If you are using AWS**, install Tensorflow.
-```
-sudo python3 -m pip install -r requirements/requirements-gpu.txt
-```
-	
-- Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
-	- __Linux__ or __Mac__: 
-		```
-		KERAS_BACKEND=tensorflow python -c "from keras import backend"
-		```
-	- __Windows__: 
-		```
-		set KERAS_BACKEND=tensorflow
-		python -c "from keras import backend"
-		```
-
-- (Optional) If you are running the project on your local machine (and not using AWS, Crestle or a similar GPU-enabling platform), create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dog-project` environment. 
-```
-python -m ipykernel install --user --name dog-project --display-name "dog-project"
-```
-
-- Open the notebook.
+- Using a GPU to run this project is strongly recommended. If you plan to install TensorFlow with GPU support on your local machine, follow [this guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system. 
+- Open the notebook and follow the notebook code block by block
 ```
 jupyter notebook dog_app.ipynb
 ```
 
-- (Optional) If you are running the project on your local machine (and not using AWS, Crestle or a similar GPU-enabling platform), before running code, change the kernel to match the dog-project environment by using the drop-down menu (**Kernel > Change kernel > dog-project**). Then follow the instructions in the notebook.
 
 ### Acknowledgements
 
-This project was done as part of Udacity's [Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025). While this particular version of the dog breed classifier project is not available on GitHub yet, a version that functions in a very similar way may be found [here](https://github.com/udacity/dog-project).
+This project was done as part of Udacity's [Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025). 
