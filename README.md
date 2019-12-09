@@ -58,6 +58,6 @@ jupyter notebook dog_app.ipynb
 ### Acknowledgements
 
 This project was done as part of Udacity's [Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
-https://github.com/dragon7-fc/DSND-Capstone/blob/master/Project%20Rubric.pdf
-https://medium.com/@gopal.iyer0/robot-motion-planning-dsnd-capstone-project-234252e608b9
-https://github.com/udacity/dog-project
+* https://github.com/dragon7-fc/DSND-Capstone/blob/master/Project%20Rubric.pdf
+* https://medium.com/@gopal.iyer0/robot-motion-planning-dsnd-capstone-project-234252e608b9
+* https://github.com/udacity/dog-project
