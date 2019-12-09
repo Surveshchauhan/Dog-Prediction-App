@@ -16,6 +16,8 @@ The dataset for this project is given by Udacity. we are using python 3.6 with T
 2. A pre-trained VGG16 network was able to achieve an accuracy between roughly 40% with fixed extractors and not changes to the final layer
 3. A a pre-trained vgg16 network attained an accuracy of roughly 75% when identifying test images, and could correctly identify the subjects of an additional six photos as dogs, humans, or neither.
 
+![Image description](RESULTS.png)
+
 ### Libraries
 
 This project makes use of the **cv2**, **keras**, **matplotlib**, **numpy**, **PIL**, **random**, **sklearn**, and **tqdm** libraries.
