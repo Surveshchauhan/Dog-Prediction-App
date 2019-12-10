@@ -11,7 +11,7 @@ The dataset for this project is given by Udacity. we are using python 3.6 with T
 
 ![Sample Output][image1]
 
-The blog is [here] (https://medium.com/@surveshchauhan/dog-identification-app-624149b31b89)
+The blog is [here](https://medium.com/@surveshchauhan/dog-identification-app-624149b31b89)
 
 ### Results
 1. A Keras classifier network built from scratch and trained on the image data was able to achieve an accuracy of 3% when exposed to test images. 
